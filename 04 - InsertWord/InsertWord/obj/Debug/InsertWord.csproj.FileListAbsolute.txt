@@ -1,0 +1,5 @@
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\InsertWord\InsertWord\bin\Debug\InsertWord.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\InsertWord\InsertWord\bin\Debug\InsertWord.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\InsertWord\InsertWord\bin\Debug\InsertWord.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\InsertWord\InsertWord\obj\Debug\InsertWord.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\InsertWord\InsertWord\obj\Debug\InsertWord.pdb

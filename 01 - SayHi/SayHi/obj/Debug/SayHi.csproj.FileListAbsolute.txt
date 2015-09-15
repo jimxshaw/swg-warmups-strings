@@ -1,0 +1,6 @@
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\SayHi\SayHi\bin\Debug\SayHi.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\SayHi\SayHi\bin\Debug\SayHi.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\SayHi\SayHi\bin\Debug\SayHi.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\SayHi\SayHi\obj\Debug\SayHi.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\SayHi\SayHi\obj\Debug\SayHi.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\SayHi\SayHi\obj\Debug\SayHi.pdb
