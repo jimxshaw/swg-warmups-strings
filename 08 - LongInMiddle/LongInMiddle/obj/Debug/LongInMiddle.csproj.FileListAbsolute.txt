@@ -1,0 +1,6 @@
+C:\Users\Apprentice\Desktop\The Software Guild\LongInMiddle\LongInMiddle\bin\Debug\LongInMiddle.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\LongInMiddle\LongInMiddle\bin\Debug\LongInMiddle.exe
+C:\Users\Apprentice\Desktop\The Software Guild\LongInMiddle\LongInMiddle\bin\Debug\LongInMiddle.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\LongInMiddle\LongInMiddle\obj\Debug\LongInMiddle.csprojResolveAssemblyReference.cache
+C:\Users\Apprentice\Desktop\The Software Guild\LongInMiddle\LongInMiddle\obj\Debug\LongInMiddle.exe
+C:\Users\Apprentice\Desktop\The Software Guild\LongInMiddle\LongInMiddle\obj\Debug\LongInMiddle.pdb
