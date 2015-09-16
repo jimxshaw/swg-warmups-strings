@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SayHi
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.Write("Please input a name: ");
             string input = Console.ReadLine();
@@ -21,3 +21,4 @@ namespace SayHi
         }
     }
 }
+
