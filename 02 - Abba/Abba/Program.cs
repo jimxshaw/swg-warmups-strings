@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace Abba
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input string a: ");
             string inputA = Console.ReadLine();
             Console.Write("Input string b: ");
             string inputB = Console.ReadLine();
 
-            Console.WriteLine(Abba(inputA, inputB));
+            Console.WriteLine(program.Abba(inputA, inputB));
 
             Console.ReadLine();
         }
-        public static string Abba(string a, string b)
+        public string Abba(string a, string b)
         {
             return a + b + b + a;
         }

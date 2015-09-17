@@ -3,3 +3,11 @@ C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\Abba\Ab
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\Abba\Abba\bin\Debug\Abba.pdb
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\Abba\Abba\obj\Debug\Abba.exe
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\Abba\Abba\obj\Debug\Abba.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\bin\Debug\Abba.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\obj\Debug\Abba.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\obj\Debug\Abba.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\bin\Debug\Abba.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\bin\Debug\Abba.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\bin\Debug\nunit.framework.dll
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\bin\Debug\nunit.framework.xml
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\02 - Abba\Abba\obj\Debug\Abba.csprojResolveAssemblyReference.cache
