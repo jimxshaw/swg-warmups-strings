@@ -10,12 +10,15 @@ namespace SayHi
     {
         public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Please input a name: ");
             string input = Console.ReadLine();
-            Console.WriteLine(SayHi(input));
+
+            Console.WriteLine(program.SayHi(input));
             Console.ReadLine();
         }
-        public static string SayHi(string name)
+        public string SayHi(string name)
         {
             return "Hello " + name + "!";
         }

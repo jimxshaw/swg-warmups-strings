@@ -29,7 +29,7 @@ namespace SayHiTests
         [TestCase("X", "Hello X!")]
         public void SayHi_Name_ReturnHiName(string name, string expectedResult)
         {
-            string result = Program.SayHi(name);
+            string result = _program.SayHi(name);
 
             Assert.AreEqual(expectedResult, result);
         }
