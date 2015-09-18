@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace StripX
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
             Console.Write("Input a word: ");
             string word = Console.ReadLine();
 
-            Console.WriteLine(StripX(word));
+            Console.WriteLine(program.StripX(word));
             Console.ReadLine();
         }
 
-        public static string StripX(string str)
+        public string StripX(string str)
         {
             if (str.StartsWith("x") && str.EndsWith("x"))
             {

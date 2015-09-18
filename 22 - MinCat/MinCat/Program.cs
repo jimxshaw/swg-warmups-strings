@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace MinCat
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
             Console.Write("Input first word: ");
             string wordA = Console.ReadLine();
             Console.Write("Input second word: ");
             string wordB = Console.ReadLine();
 
-            Console.WriteLine(MinCat(wordA, wordB));
+            Console.WriteLine(program.MinCat(wordA, wordB));
 
             Console.ReadLine();
         }
 
-        public static string MinCat(string a, string b)
+        public string MinCat(string a, string b)
         {
             if (a.Length == b.Length)
             {

@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace FrontAgain
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
             Console.Write("Input a word: ");
             string word = Console.ReadLine();
 
-            Console.WriteLine(FrontAgain(word));
+            Console.WriteLine(program.FrontAgain(word));
             Console.ReadLine();
         }
 
-        public static bool FrontAgain(string str)
+        public bool FrontAgain(string str)
         {
             if (str.Length < 2)
             {
