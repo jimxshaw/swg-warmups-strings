@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace MiddleTwo
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a word of even length: ");
             string word = Console.ReadLine();
 
             if (word.Length%2 == 0)
             {
-                Console.WriteLine(MiddleTwo(word));
+                Console.WriteLine(program.MiddleTwo(word));
             }
             else
             {
@@ -24,7 +26,7 @@ namespace MiddleTwo
             Console.ReadLine();
         }
 
-        public static string MiddleTwo(string str)
+        public string MiddleTwo(string str)
         {
             return str.Substring((str.Length / 2) - 1, 2);
         }

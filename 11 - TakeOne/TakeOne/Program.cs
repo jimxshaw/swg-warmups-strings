@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace TakeOne
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a word: ");
             string word = Console.ReadLine();
             Console.Write("Take first letter? (y or n): ");
@@ -18,11 +20,11 @@ namespace TakeOne
     
             if (fromFront == "y")
             {
-                Console.WriteLine(TakeOne(word, true));
+                Console.WriteLine(program.TakeOne(word, true));
             }
             else if (fromFront == "n")
             {
-                Console.WriteLine(TakeOne(word, false));
+                Console.WriteLine(program.TakeOne(word, false));
             }
             else
             {
@@ -32,7 +34,7 @@ namespace TakeOne
             Console.ReadLine();
         }
 
-        public static string TakeOne(string str, bool fromFront)
+        public string TakeOne(string str, bool fromFront)
         {
             if (fromFront)
             {

@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace EndsWithLy
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a word: ");
             string word = Console.ReadLine();
-            Console.WriteLine(EndsWithLy(word));
+            Console.WriteLine(program.EndsWithLy(word));
 
             Console.ReadLine();
         }
 
-        public static bool EndsWithLy(string str)
+        public bool EndsWithLy(string str)
         {
             if (str.EndsWith("ly"))
             {

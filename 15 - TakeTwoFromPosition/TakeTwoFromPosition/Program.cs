@@ -6,27 +6,29 @@ using System.Threading.Tasks;
 
 namespace TakeTwoFromPosition
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a word: ");
             string word = Console.ReadLine();
             Console.Write("Input an integer: ");
             string numberString = Console.ReadLine();
             int number = int.Parse(numberString);
 
-            if (number > 2)
-            {
-                number = 0;
-            }
-
-            Console.WriteLine(TakeTwoFromPosition(word, number));
+            Console.WriteLine(program.TakeTwoFromPosition(word, number));
             Console.ReadLine();
         }
 
-        public static string TakeTwoFromPosition(string str, int n)
+        public string TakeTwoFromPosition(string str, int n)
         {
+            if (n > 2)
+            {
+                return str.Substring(0, 2);
+            }
+
             return str.Substring(n, 2);
         }
     }
