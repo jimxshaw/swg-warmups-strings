@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeTags", "MakeTags\MakeTags.csproj", "{F32093D4-770C-48F4-91EF-D44D1455222E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeTagsTests", "MakeTagsTests\MakeTagsTests.csproj", "{6D24A43B-0A2D-4251-953A-0FF115FA534C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F32093D4-770C-48F4-91EF-D44D1455222E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32093D4-770C-48F4-91EF-D44D1455222E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32093D4-770C-48F4-91EF-D44D1455222E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D24A43B-0A2D-4251-953A-0FF115FA534C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D24A43B-0A2D-4251-953A-0FF115FA534C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D24A43B-0A2D-4251-953A-0FF115FA534C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D24A43B-0A2D-4251-953A-0FF115FA534C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

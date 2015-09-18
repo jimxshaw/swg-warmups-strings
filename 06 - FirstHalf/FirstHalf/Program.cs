@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace FirstHalf
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.WriteLine("Input a string of event length: ");
             string input = Console.ReadLine();
 
-            Console.WriteLine(FirstHalf(input));
+            Console.WriteLine(program.FirstHalf(input));
 
             Console.ReadLine();
         }
-        public static string FirstHalf(string str)
+        public string FirstHalf(string str)
         {
             return str.Substring(0, str.Length / 2);
         }

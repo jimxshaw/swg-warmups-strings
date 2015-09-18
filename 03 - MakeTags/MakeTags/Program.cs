@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace MakeTags
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a tag: ");
             string tag = Console.ReadLine();
             Console.Write("Input content: ");
             string content = Console.ReadLine();
 
-            Console.WriteLine(MakeTags(tag, content));
+            Console.WriteLine(program.MakeTags(tag, content));
 
             Console.ReadLine();
         }
-        public static string MakeTags(string tag, string content)
+        public string MakeTags(string tag, string content)
         {
             return "<" + tag + ">" + content + "</" + tag + ">";
         }

@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace MultipleEndings
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a string: ");
             string input = Console.ReadLine();
 
-            Console.WriteLine(MultipleEndings(input));
+            Console.WriteLine(program.MultipleEndings(input));
             Console.ReadLine();
         }
-        public static string MultipleEndings(string str)
+        public string MultipleEndings(string str)
         {
             return str.Substring(str.Length - 2) + str.Substring(str.Length - 2) + str.Substring(str.Length - 2);
         }

@@ -4,3 +4,9 @@ C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\FirstHa
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\FirstHalf\FirstHalf\obj\Debug\FirstHalf.csprojResolveAssemblyReference.cache
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\FirstHalf\FirstHalf\obj\Debug\FirstHalf.exe
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\FirstHalf\FirstHalf\obj\Debug\FirstHalf.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\06 - FirstHalf\FirstHalf\bin\Debug\FirstHalf.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\06 - FirstHalf\FirstHalf\obj\Debug\FirstHalf.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\06 - FirstHalf\FirstHalf\obj\Debug\FirstHalf.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\06 - FirstHalf\FirstHalf\bin\Debug\FirstHalf.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\06 - FirstHalf\FirstHalf\bin\Debug\FirstHalf.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\06 - FirstHalf\FirstHalf\obj\Debug\FirstHalf.csprojResolveAssemblyReference.cache

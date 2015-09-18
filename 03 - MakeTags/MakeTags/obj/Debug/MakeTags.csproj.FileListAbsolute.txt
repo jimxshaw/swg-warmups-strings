@@ -3,3 +3,9 @@ C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\MakeTag
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\MakeTags\MakeTags\bin\Debug\MakeTags.pdb
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\MakeTags\MakeTags\obj\Debug\MakeTags.exe
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\MakeTags\MakeTags\obj\Debug\MakeTags.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\03 - MakeTags\MakeTags\bin\Debug\MakeTags.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\03 - MakeTags\MakeTags\obj\Debug\MakeTags.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\03 - MakeTags\MakeTags\obj\Debug\MakeTags.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\03 - MakeTags\MakeTags\bin\Debug\MakeTags.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\03 - MakeTags\MakeTags\bin\Debug\MakeTags.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\03 - MakeTags\MakeTags\obj\Debug\MakeTags.csprojResolveAssemblyReference.cache
