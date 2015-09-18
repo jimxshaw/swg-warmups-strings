@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using SayHi;
+using TrimOne;
 
-// To test properly,
-// 1) add the NUnit Package
-// 2) add -> reference for the other program
-
-namespace SayHiTests
+namespace TrimOneTests
 {
     [TestFixture]
-    public class SayHiTests
+    public class TrimOneTests
     {
         private Program _program;
 
@@ -24,12 +20,12 @@ namespace SayHiTests
             Console.WriteLine("SetUp Called.");
         }
 
-        [TestCase("Bob", "Hello Bob!")]
-        [TestCase("Alice", "Hello Alice!")]
-        [TestCase("X", "Hello X!")]
-        public void SayHi_Name_ReturnString(string name, string expectedResult)
+        [TestCase("Hello", "ell")]
+        [TestCase("java", "av")]
+        [TestCase("coding", "odin")]
+        public void TrimOne_String_ReturnSubstring(string str, string expectedResult)
         {
-            string result = _program.SayHi(name);
+            string result = _program.TrimOne(str);
 
             Assert.AreEqual(expectedResult, result);
         }

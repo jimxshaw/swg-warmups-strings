@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using SayHi;
+using RotateRight2;
 
-// To test properly,
-// 1) add the NUnit Package
-// 2) add -> reference for the other program
-
-namespace SayHiTests
+namespace RotateRight2Tests
 {
     [TestFixture]
-    public class SayHiTests
+    public class RotateRight2Tests
     {
         private Program _program;
 
@@ -24,12 +20,12 @@ namespace SayHiTests
             Console.WriteLine("SetUp Called.");
         }
 
-        [TestCase("Bob", "Hello Bob!")]
-        [TestCase("Alice", "Hello Alice!")]
-        [TestCase("X", "Hello X!")]
-        public void SayHi_Name_ReturnString(string name, string expectedResult)
+        [TestCase("Hello", "loHel")]
+        [TestCase("java", "vaja")]
+        [TestCase("Hi", "Hi")]
+        public void RotateRight2_String_ReturnSubstring(string str, string expectedResult)
         {
-            string result = _program.SayHi(name);
+            string result = _program.RotateRight2(str);
 
             Assert.AreEqual(expectedResult, result);
         }

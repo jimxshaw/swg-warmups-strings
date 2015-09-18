@@ -3,3 +3,8 @@ C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\TrimOne
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\TrimOne\TrimOne\bin\Debug\TrimOne.pdb
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\TrimOne\TrimOne\obj\Debug\TrimOne.exe
 C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\TrimOne\TrimOne\obj\Debug\TrimOne.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\07 - TrimOne\TrimOne\bin\Debug\TrimOne.exe.config
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\07 - TrimOne\TrimOne\obj\Debug\TrimOne.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\07 - TrimOne\TrimOne\obj\Debug\TrimOne.pdb
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\07 - TrimOne\TrimOne\bin\Debug\TrimOne.exe
+C:\Users\Apprentice\Desktop\The Software Guild\Unit 1\01 Warmups Strings\07 - TrimOne\TrimOne\bin\Debug\TrimOne.pdb

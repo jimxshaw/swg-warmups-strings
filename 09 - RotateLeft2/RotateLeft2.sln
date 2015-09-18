@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateLeft2", "RotateLeft2\RotateLeft2.csproj", "{A3E4CDFE-201F-4626-B504-D45A9D77EA4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate2Tests", "Rotate2Tests\Rotate2Tests.csproj", "{B963612A-70E0-42A6-8278-233B004DD95F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A3E4CDFE-201F-4626-B504-D45A9D77EA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E4CDFE-201F-4626-B504-D45A9D77EA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E4CDFE-201F-4626-B504-D45A9D77EA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B963612A-70E0-42A6-8278-233B004DD95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B963612A-70E0-42A6-8278-233B004DD95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B963612A-70E0-42A6-8278-233B004DD95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B963612A-70E0-42A6-8278-233B004DD95F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

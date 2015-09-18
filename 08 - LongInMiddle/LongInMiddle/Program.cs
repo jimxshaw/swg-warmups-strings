@@ -6,29 +6,29 @@ using System.Threading.Tasks;
 
 namespace LongInMiddle
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input string A: ");
             string inputA = Console.ReadLine();
             Console.Write("Input string B: ");
             string inputB = Console.ReadLine();
-            Console.WriteLine(LongInMiddle(inputA, inputB));
+            Console.WriteLine(program.LongInMiddle(inputA, inputB));
 
             Console.ReadLine();
         }
 
-        public static string LongInMiddle(string a, string b)
+        public string LongInMiddle(string a, string b)
         {
             if (a.Length > b.Length)
             {
                 return b + a + b;
             }
-            else
-            {
-                return a + b + a;
-            }
+
+            return a + b + a;
         }
     }
 }

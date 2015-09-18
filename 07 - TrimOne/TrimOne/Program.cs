@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace TrimOne
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a string: ");
             string input = Console.ReadLine();
-            Console.WriteLine(TrimOne(input));
+            Console.WriteLine(program.TrimOne(input));
 
             Console.ReadLine();
         }
-        public static string TrimOne(string str)
+        public string TrimOne(string str)
         {
             return str.Substring(1, str.Length - 2);
         }

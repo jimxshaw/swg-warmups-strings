@@ -6,18 +6,25 @@ using System.Threading.Tasks;
 
 namespace RotateLeft2
 {
-    internal class Program
+    public class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
+
             Console.Write("Input a word: ");
             string input = Console.ReadLine();
-            Console.WriteLine(RotateLeft2(input));
+            Console.WriteLine(program.RotateLeft2(input));
             Console.ReadLine();
         }
 
-        public static string RotateLeft2(string str)
+        public string RotateLeft2(string str)
         {
+            if (str.Length == 2)
+            {
+                return str;
+            }
+
             string left2 = str.Remove(2);
             string remainingLetters = str.Remove(0, 2);
 

@@ -4,16 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using SayHi;
+using LongInMiddle;
 
-// To test properly,
-// 1) add the NUnit Package
-// 2) add -> reference for the other program
-
-namespace SayHiTests
+namespace LongInMiddleTests
 {
     [TestFixture]
-    public class SayHiTests
+    public class LongInMiddleTests
     {
         private Program _program;
 
@@ -24,12 +20,12 @@ namespace SayHiTests
             Console.WriteLine("SetUp Called.");
         }
 
-        [TestCase("Bob", "Hello Bob!")]
-        [TestCase("Alice", "Hello Alice!")]
-        [TestCase("X", "Hello X!")]
-        public void SayHi_Name_ReturnString(string name, string expectedResult)
+        [TestCase("Hello", "hi", "hiHellohi")]
+        [TestCase("hi", "Hello", "hiHellohi")]
+        [TestCase("aaa", "b", "baaab")]
+        public void LongInMiddle_Strings_ReturnConcatenation(string a, string b, string expectedResult)
         {
-            string result = _program.SayHi(name);
+            string result = _program.LongInMiddle(a, b);
 
             Assert.AreEqual(expectedResult, result);
         }
