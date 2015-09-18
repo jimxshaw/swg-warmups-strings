@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace AtFirst
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Program program = new Program();
             Console.Write("Input a word: ");
             string word = Console.ReadLine();
-            Console.WriteLine(AtFirst(word));
+            Console.WriteLine(program.AtFirst(word));
 
             Console.ReadLine();
         }
 
-        public static string AtFirst(string str)
+        public string AtFirst(string str)
         {
             if (str.Length == 2)
             {
